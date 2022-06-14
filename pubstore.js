@@ -1,4 +1,4 @@
-const makePublishstore = initValue => {
+export const makePubstore = initValue => {
     let value = initValue
     const subscribes = []
     
