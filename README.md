@@ -7,3 +7,11 @@ A microscopic pubsub-based store utility for building HTML/CSS-first apps withou
 ```
 npm install
 ```
+
+## Running Examples
+
+Make sure package is installed, then:
+
+```
+npx parcel examples/<example>/index.html
+```
