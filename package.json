@@ -3,6 +3,13 @@
   "version": "0.1.0",
   "description": "",
   "main": "pubstore.js",
+  "engines": {
+    "node": ">=18.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trslater/pubstore.git"
+  },
   "directories": {
     "example": "examples"
   },
