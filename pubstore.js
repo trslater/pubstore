@@ -1,14 +1,14 @@
 export const makePubstore = initValue => {
     let value = initValue
-    const subscribes = []
+    const subscribers = []
     
     const subscribe = callback => {
-        subscribes.push(callback)
+        subscribers.push(callback)
         callback(value)
     }
     
     const unsubscribe = callback => {
-        subscribes.splice(subscribes.indexOf(callback), 1)
+        subscribers.splice(subscribers.indexOf(callback), 1)
     }
     
     const publish = getNewValue => {
